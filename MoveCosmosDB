@@ -4,19 +4,17 @@ Move Azure Cosmos DB to a new region in a different Azure Subscription
 
 Add/remove regions from your database account
 
-<b>Via Azure portal</b>
-Sign in to Azure portal.
+#Via Azure portal
+* Sign in to Azure portal.
 
-Go to your Azure Cosmos account, and open the Replicate data globally menu.
+* Go to your Azure Cosmos account, and open the Replicate data globally menu.
 
-To add regions, select the hexagons on the map with the + label that corresponds to your desired region(s). Alternatively, to add a region, select the + Add region option and choose a region from the drop-down menu.
+* To add regions, select the hexagons on the map with the + label that corresponds to your desired region(s). Alternatively, to add a region, select the + Add region option and choose a region from the drop-down menu.
 
-To remove regions, clear one or more regions from the map by selecting the blue hexagons with check marks. Or select the "wastebasket" (🗑) icon next to the region on the right side.
+* To remove regions, clear one or more regions from the map by selecting the blue hexagons with check marks. Or select the "wastebasket" (🗑) icon next to the region on the right side.
 
-To save your changes, select OK.
+* To save your changes, select OK.
 
-Add or remove regions menu
-
-In a single-region write mode, you cannot remove the write region. You must fail over to a different region before you can delete the current write region.
+* Add or remove regions menu
 
 In a multi-region write mode, you can add or remove any region, if you have at least one region.
